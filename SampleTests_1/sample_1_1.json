@@ -10,7 +10,7 @@
     {
       "type": "setElementText",
       "locator": {
-        "type": "",
+        "type": "id",
         "value": "lst-ib"
       },
       "text": "dogs"
