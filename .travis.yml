@@ -1,0 +1,10 @@
+language: node_js
+before_script:
+    -"npm install -g se-interpreter"
+script:
+    -"se-interpreter selenium/interpreter_config.json"
+env:
+    global:
+        - SAUCE_USERNAME=zhughes20
+        - secure: "Img22OEo0XzAW9m+poo8W1STYk6PiyEPXvH2T38WbMNSesh/8N23DEyJYCTPINO/J38iprHETGzgx57RhwlUQaXDZz7anis1hPzhDnw8kqvAKuangajxVjYUa5p6Dj/S+S+YQvaubHu9m7qmdCQ0Ay3rP7b5lfm93Uv/WEGJLA/+uBRUGldcghKJFUGO2IyItX4C7zAydyt/FsOt2qaTdJw+m8U3kW02SCVht0THcknQAdJmMeNUn6etk7cjbbFIy/H9RmzeUXP2/Ff8mD2yd6E3keOH6KrUQCYWN3F9KetDb6jF/hvlH9iax0m3QeerjQhbpD17ZRy+EdYxa+LN35JpJoMdw1U2EbLViJBAjWWepFappbjFEWW5YvsUdBtOe+P36yekI3qIqTf+aKEJ236w0Bj8l7+py8VkjjDdLNwrzOxeZC7zzIJ9N47/f2nq+LWxuFrlTNLr2kg0p7+ulbuIX/rAcehLygi/MpN1BMp75vCCleHAa4Xrjz8aRRzrso0UNODKNKYmsW18BixBJu5+F7vvJ+8eoooD0Z/+FTZgvBGNC+CUfIvuWzgCxMlOY3ZJcM1HgSyUUFqwWx18q56lePPSPrExcBHtYLyig4ztCdCu1I4LfSnGKrfaHpwyRndz8s9HJktihDqmWCNvnUWXuxX5jZMbiCO387MwcLo="
+        
